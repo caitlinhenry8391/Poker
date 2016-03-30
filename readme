@@ -1,0 +1,30 @@
+Project Title: Poker Cards
+Author: Caitlin Henry
+Version: 1.0
+Last Updated: 3/31/2016
+
+Project Overview:
+The project provides the basic implementation for a deck of poker cards. 
+The user can deal, shuffle, and reset the deck of cards from the command line.
+
+Folder Structure:
+
+src: contains java code for project. There are two packages, poker and test.
+	poker: contains Card and Deck classes
+	tests: contains JUnit tests for each class
+doc: contains Javadoc documentation for the Card and Deck classes. Open the index.html file to see the API for both classes.
+
+Installation instructions:
+
+To run the executable Java program from the command line: 
+Navigate to the folder where Poker.jar is saved, then enter the command: java -jar Poker.jar
+Instructions and a list of available commands should appear in the console.
+
+To open the project in Eclipse IDE:
+Ensure you have Eclipse and Java JDK installed on your computer.
+Open Eclipse and select File->Import...->General->Existing Projects to Workspace
+Check Select archive file-> Browse... to select the Poker.zip file from wherever it is saved on your computer
+Make sure the Cards project is selected in the Projects text box, then click finish.
+Expand the src folder to see the poker and tests packages.
+To run the card program, right-click Deck.java and select Run As... Java Application
+To run the JUnit tests, right-click AllTests.java and select Run As... JUnit Test
