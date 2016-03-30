@@ -16,6 +16,8 @@ doc: contains Javadoc documentation for the Card and Deck classes. Open the inde
 
 Installation instructions:
 
+Download the zip file from the Github repository and save it anywhere on your local Desktop.
+
 To run the executable Java program from the command line: 
 Navigate to the folder where Poker.jar is saved, then enter the command: java -jar Poker.jar
 Instructions and a list of available commands should appear in the console.
@@ -23,7 +25,7 @@ Instructions and a list of available commands should appear in the console.
 To open the project in Eclipse IDE:
 Ensure you have Eclipse and Java JDK installed on your computer.
 Open Eclipse and select File->Import...->General->Existing Projects to Workspace
-Check Select archive file-> Browse... to select the Poker.zip file from wherever it is saved on your computer
+Check Select archive file-> Browse... to select the Poker-master.zip file from wherever it is saved on your computer
 Make sure the Cards project is selected in the Projects text box, then click finish.
 Expand the src folder to see the poker and tests packages.
 To run the card program, right-click Deck.java and select Run As... Java Application
